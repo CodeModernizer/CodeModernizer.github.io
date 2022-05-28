@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on CodeModernizer</title>
-    <link>https://demo.gethugothemes.com/CodeModernizer/resources/</link>
+    <link>https://www.codemodernizer.com/resources/</link>
     <description>Recent content in Resources on CodeModernizer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://demo.gethugothemes.com/CodeModernizer/resources/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://www.codemodernizer.com/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bug Reporting</title>
-      <link>https://demo.gethugothemes.com/CodeModernizer/resources/bug-reporting/</link>
+      <link>https://www.codemodernizer.com/resources/bug-reporting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://demo.gethugothemes.com/CodeModernizer/resources/bug-reporting/</guid>
+      <guid>https://www.codemodernizer.com/resources/bug-reporting/</guid>
       <description>Found a bug? Let us know so we can fix it!</description>
     </item>
     
     <item>
       <title>Feedback</title>
-      <link>https://demo.gethugothemes.com/CodeModernizer/resources/feedback/</link>
+      <link>https://www.codemodernizer.com/resources/feedback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://demo.gethugothemes.com/CodeModernizer/resources/feedback/</guid>
+      <guid>https://www.codemodernizer.com/resources/feedback/</guid>
       <description>Have some feedback for us? Send it here! Have some good ideas for us for new features, ways to do things differently, or more?</description>
     </item>
     
     <item>
       <title>Frequently Asked Questions</title>
-      <link>https://demo.gethugothemes.com/CodeModernizer/resources/faq/</link>
+      <link>https://www.codemodernizer.com/resources/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://demo.gethugothemes.com/CodeModernizer/resources/faq/</guid>
+      <guid>https://www.codemodernizer.com/resources/faq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Installation &amp; Tutorial</title>
-      <link>https://demo.gethugothemes.com/CodeModernizer/resources/installation-tutorial/</link>
+      <link>https://www.codemodernizer.com/resources/installation-tutorial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://demo.gethugothemes.com/CodeModernizer/resources/installation-tutorial/</guid>
+      <guid>https://www.codemodernizer.com/resources/installation-tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Manual</title>
-      <link>https://demo.gethugothemes.com/CodeModernizer/resources/manual/</link>
+      <link>https://www.codemodernizer.com/resources/manual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://demo.gethugothemes.com/CodeModernizer/resources/manual/</guid>
+      <guid>https://www.codemodernizer.com/resources/manual/</guid>
       <description>Here, you can find a comprehensive manual that goes into the details of using CodeModernizer.</description>
     </item>
     
