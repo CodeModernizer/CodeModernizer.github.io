@@ -1,0 +1,54 @@
+{
+  "name": "CodeModernizer",
+  "short_name": "CodeModernizer",
+  "lang": "en-US",
+  "theme_color": "#8E64E7",
+  "background_color": "#fff",
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "icons": [
+    {
+      "src": "/CodeModernizer/images/favicon-32x32_hu1694b42e63a66f99928e227744d21562_1239_48x0_resize_box_3.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/CodeModernizer/images/favicon-32x32_hu1694b42e63a66f99928e227744d21562_1239_72x0_resize_box_3.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/CodeModernizer/images/favicon-32x32_hu1694b42e63a66f99928e227744d21562_1239_96x0_resize_box_3.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/CodeModernizer/images/favicon-32x32_hu1694b42e63a66f99928e227744d21562_1239_144x0_resize_box_3.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/CodeModernizer/images/favicon-32x32_hu1694b42e63a66f99928e227744d21562_1239_192x0_resize_box_3.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/CodeModernizer/images/favicon-32x32_hu1694b42e63a66f99928e227744d21562_1239_512x0_resize_box_3.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  
+  
+  "display": "standalone",
+  "start_url": "/CodeModernizer?utm_source=web_app_manifest"
+}

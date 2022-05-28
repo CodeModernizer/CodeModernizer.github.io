@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>All Products on CodeModernizer</title>
+    <link>https://demo.gethugothemes.com/CodeModernizer/products/</link>
+    <description>Recent content in All Products on CodeModernizer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.gethugothemes.com/CodeModernizer/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CodeModernizer</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/products/product-codemodernizer/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/products/product-codemodernizer/</guid>
+      <description>######################### Intro Video ##################### intro_video: enable: true title: &amp;ldquo;Check out our video preview&amp;rdquo; content: &amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Consulting</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/products/product-consulting/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/products/product-consulting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>e2immu</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/products/product-e2immu/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/products/product-e2immu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,14 +1,407 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code Modernizer</title>
-    <link>https://CodeModernizer.github.io/</link>
-    <description>Recent content on Code Modernizer</description>
+    <title>CodeModernizer</title>
+    <link>https://demo.gethugothemes.com/CodeModernizer/</link>
+    <description>Recent content on CodeModernizer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.gethugothemes.com/CodeModernizer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sr. Executive - Service Assurance</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/career/sr-executive-service-assurance/</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/career/sr-executive-service-assurance/</guid>
+      <description>What Is the role? We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
     
-	<atom:link href="https://CodeModernizer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CodeModernizer</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/products/product-codemodernizer/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/products/product-codemodernizer/</guid>
+      <description>######################### Intro Video ##################### intro_video: enable: true title: &amp;ldquo;Check out our video preview&amp;rdquo; content: &amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
     
+    <item>
+      <title>Digital Marketing / Media Manager</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/career/digital-marketing-media-manager/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/career/digital-marketing-media-manager/</guid>
+      <description>What Is the role? We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-1/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-1/</guid>
+      <description>Client We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>Consulting</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/products/product-consulting/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/products/product-consulting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People Program Management Leader</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/career/people-program-management-leader/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/career/people-program-management-leader/</guid>
+      <description>What Is the role? We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>Slack</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-2/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-2/</guid>
+      <description>Client We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>e2immu</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/products/product-e2immu/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/products/product-e2immu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Senior Backend Programmer</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/career/senior-backend-programmer/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/career/senior-backend-programmer/</guid>
+      <description>What Is the role? We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>Trello</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-3/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-3/</guid>
+      <description>Client We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>Spotify</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-4/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-4/</guid>
+      <description>Client We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>Jira</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-5/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-5/</guid>
+      <description>Client We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>Programmer/ Web Developer</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/career/programmer-web-developer/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/career/programmer-web-developer/</guid>
+      <description>What Is the role? We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>Iconosquare</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-6/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/case-studies/case-6/</guid>
+      <description>Client We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>Technology Integration Support</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/career/technology-integration-support/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/career/technology-integration-support/</guid>
+      <description>What Is the role? We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>ASP.NET Software Developer</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/career/asp-net-software-developer/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/career/asp-net-software-developer/</guid>
+      <description>What Is the role? We are looking for a personal financial planning pro (Certified Financial Planner™ preferred) who will lead our client advising efforts.</description>
+    </item>
+    
+    <item>
+      <title>How and why we decided to launch an EMI scheme for our employees</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/blog/post-7/</link>
+      <pubDate>Thu, 18 Feb 2021 10:07:21 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/blog/post-7/</guid>
+      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
+    </item>
+    
+    <item>
+      <title>What to consider before starting a business – Inside The Studio</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/blog/post-8/</link>
+      <pubDate>Mon, 18 Jan 2021 10:07:21 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/blog/post-8/</guid>
+      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
+    </item>
+    
+    <item>
+      <title>Adversus is a web-based dialer and practical CRM solution</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/blog/post-1/</link>
+      <pubDate>Tue, 18 Aug 2020 10:07:21 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/blog/post-1/</guid>
+      <description>Table Of Content  Heading 2  Heading 3  Heading 4  Heading 5 Emphasis Link Paragraph Ordered List Unordered List Code and Syntax Highlighting Blockquote Inline HTML Tables Image Youtube video          Here is example of hedings.</description>
+    </item>
+    
+    <item>
+      <title>Pump-up the team morale and celebrate the excellence</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/blog/post-2/</link>
+      <pubDate>Sat, 18 Jul 2020 10:07:21 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/blog/post-2/</guid>
+      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
+    </item>
+    
+    <item>
+      <title>screens with built in Present and Dismiss animations.</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/blog/post-3/</link>
+      <pubDate>Thu, 18 Jun 2020 10:07:21 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/blog/post-3/</guid>
+      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
+    </item>
+    
+    <item>
+      <title>Adversus is a web-based dialer and practical CRM solution</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/blog/post-4/</link>
+      <pubDate>Mon, 18 May 2020 10:07:21 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/blog/post-4/</guid>
+      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
+    </item>
+    
+    <item>
+      <title>Adversus is a web-based dialer and practical CRM solution</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/blog/post-5/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/blog/post-5/</guid>
+      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
+    </item>
+    
+    <item>
+      <title>Adversus is a web-based dialer and practical CRM solution</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/blog/post-6/</link>
+      <pubDate>Wed, 18 Mar 2020 10:07:21 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/blog/post-6/</guid>
+      <description>Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</description>
+    </item>
+    
+    <item>
+      <title>About Us</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/about-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/about-us/</guid>
+      <description>office_culture office_culture: enable: true title: &amp;ldquo;Our Office Culture&amp;rdquo; content: &amp;ldquo;Create a best strategic tool, share it with your team and ensure it’s on track with intuitive dashboards.</description>
+    </item>
+    
+    <item>
+      <title>Awab Husameldin</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/author/awab-husameldin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/author/awab-husameldin/</guid>
+      <description>Hic dolor cumque quod quas pariatur modi rerum qui consequatur, iusto inventore necessitatibus.</description>
+    </item>
+    
+    <item>
+      <title>Bug Reporting</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/resources/bug-reporting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/resources/bug-reporting/</guid>
+      <description>Found a bug? Let us know so we can fix it!</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/contact/</guid>
+      <description>Get in contact Interested in CodeModernizer? Don&amp;rsquo;t hesitate to get into contact with us!</description>
+    </item>
+    
+    <item>
+      <title>Download</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/download/</guid>
+      <description>Evolve and modernize your Java code for longer-lasting, more sustainable software.</description>
+    </item>
+    
+    <item>
+      <title>Feedback</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/resources/feedback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/resources/feedback/</guid>
+      <description>Have some feedback for us? Send it here! Have some good ideas for us for new features, ways to do things differently, or more?</description>
+    </item>
+    
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/resources/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/resources/faq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frequently Asked Questions about the pricing plans</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/pricing-faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/pricing-faq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Get a Demo</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/get-demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/get-demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installation &amp; Tutorial</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/resources/installation-tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/resources/installation-tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joseph Gonzalez</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/author/joseph-gonzalez/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/author/joseph-gonzalez/</guid>
+      <description>Facilis architecto quis maxime nam at, optio harum a velit nulla repellat ad culpa dolorem ab ducimus, porro enim fugit incidunt expedita.</description>
+    </item>
+    
+    <item>
+      <title>Legal</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/legal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/legal/</guid>
+      <description>CodeModernizer is a product and service from IBTECH BV, a limited liability company under Belgian law.</description>
+    </item>
+    
+    <item>
+      <title>Manual</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/resources/manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/resources/manual/</guid>
+      <description>Here, you can find a comprehensive manual that goes into the details of using CodeModernizer.</description>
+    </item>
+    
+    <item>
+      <title>Our Team</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pricing</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/pricing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy &amp; Policy</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/privacy-policy/</guid>
+      <description>Responsibility of Contributors Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Roadmap</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/roadmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roadmap / Timeline</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/roadmap-timeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/roadmap-timeline/</guid>
+      <description>Right now, CodeModernizer is still in development. No downloadable software is yet available.</description>
+    </item>
+    
+    <item>
+      <title>Technical Details</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/technical-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/technical-details/</guid>
+      <description>This page delves deeper into the technical workings of CodeModernizer, for curious developers.</description>
+    </item>
+    
+    <item>
+      <title>Values</title>
+      <link>https://demo.gethugothemes.com/CodeModernizer/values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/CodeModernizer/values/</guid>
+      <description>Mission and Vision  Our mission is to make a lasting impact on the programming world by offering tools that help code lasts longer and be more maintainable, and hence, sustainable.</description>
+    </item>
     
   </channel>
 </rss>
