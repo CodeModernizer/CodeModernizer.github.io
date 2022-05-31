@@ -13,7 +13,8 @@
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.codemodernizer.com/products/product-codemodernizer/</guid>
-      <description>######################### Intro Video ##################### intro_video: enable: true title: &amp;ldquo;Check out our video preview&amp;rdquo; content: &amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+      <description>######################### Intro Video ##################### #intro_video:
+enable: true title: &amp;ldquo;Check out our video preview&amp;rdquo; content: &amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
     
     <item>
