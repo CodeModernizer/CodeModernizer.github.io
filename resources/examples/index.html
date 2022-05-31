@@ -5,11 +5,11 @@
 
 <head>
 	<meta charset="utf-8">
-<title>Latest News</title>
+<title>Examples</title>
 
 
 
-<base href="https://www.codemodernizer.com/blog/">
+<base href="https://www.codemodernizer.com/resources/examples/">
 
 
 
@@ -17,7 +17,7 @@
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-<meta name="description" content="Read all latest blog posts">
+<meta name="description" content="A page full of examples of transformations">
 <meta name="author" content="Themefisher">
 <meta name="generator" content="Hugo 0.99.1" />
 
@@ -55,20 +55,22 @@
 
 
 
-<meta name="twitter:title" content="Latest News"/>
-<meta name="twitter:description" content="Read all latest blog posts"/>
+<meta name="twitter:title" content="Examples"/>
+<meta name="twitter:description" content="A page full of examples of transformations"/>
 
 
 
-<meta property="og:title" content="Latest News" />
-<meta property="og:description" content="Read all latest blog posts" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.codemodernizer.com/blog/" />
+<meta property="og:title" content="Examples" />
+<meta property="og:description" content="A page full of examples of transformations" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.codemodernizer.com/resources/examples/" /><meta property="article:section" content="resources" />
+
+
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Latest News"/>
-<meta name="twitter:description" content="Read all latest blog posts"/>
+<meta name="twitter:title" content="Examples"/>
+<meta name="twitter:description" content="A page full of examples of transformations"/>
 
 
 
@@ -316,7 +318,7 @@
           
           
           
-          <li class="nav-item dropdown ">
+          <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Resources
             </a>
@@ -332,7 +334,7 @@
               
               
               <li>
-                <a class="dropdown-item " 
+                <a class="dropdown-item active" 
                 href="/resources/examples/">Examples</a>
               </li>
               
@@ -386,204 +388,253 @@
 	<main>
 		
 
+
+
 <section class="section pb-0">
   <div class="container text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mx-auto">
-          <h1 class="h2 mb-3">Latest News</h1>
-          
-          <p class="mb-0 fw-500">Read all latest blog posts</p>
+          <h1 class="h2 mb-3">Examples</h1>
           
         </div>
       </div>
     </div>
   </div>
 </section>
-
-
-
-
-<section class="section mt-4">
+<section class="section">
   <div class="container">
-    <div class="row gx-5 gy-6">
-      
-      <div class="col-12 pb-5">
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-4 mb-md-0">
-            
-            
-            
-            
-            <img loading="lazy" decoding="async" class="img-fluid rounded-2 w-100" width="560" height="280" src="/images/blog/post-1_hu503387a4685af09377e6d1551af25ae0_75926_00f003beefc3d69b1ea5cccf1e62694c.webp" alt="post image" onerror="this.onerror=null;this.src='\/images\/blog\/post-1_hu503387a4685af09377e6d1551af25ae0_75926_560x0_resize_q100_box.jpg'">
-            
-          </div>
-          <div class="col-md-6">
-            <div class="d-flex align-items-center mb-4">
-              
-              <div class="user-image me-1">
-                
-                
-                
-                
-                <a href="/author/awab-husameldin/" title="Awab Husameldin">
-                  <img loading="lazy" decoding="async" class="rounded-circle" src="/images/avatar/03_hu1423e534f93ce9cccce36bc479b07f45_18369_51bc94d811eb94741b67de0641e7040d.webp" alt="author image" onerror="this.onerror=null;this.src='\/images\/avatar\/03_hu1423e534f93ce9cccce36bc479b07f45_18369_30x30_fill_q100_box_smart1.jpg'">
-                </a>
-                
-              </div>
-              <div class="user-info me-3">
-                <p class="fw-500 mb-0"><span class="mx-1">by</span><a class="text-dark" href="/author/awab-husameldin/">Awab Husameldin</a></p>
-              </div>
-              
-              <div class="fw-500"><i class="far fa-calendar-alt text-dark me-1"></i> August 18, 2020</div>
-            </div>
-
-            <h2 class="h3 mb-3"><a href="https://www.codemodernizer.com/blog/post-1/" title="Adversus is a web-based dialer and practical CRM solution" class="text-dark d-inline-block">Adversus is a web-based dialer and practical CRM solution</a></h2>
-            <p class="mb-4">Table Of Content  Heading 2  Heading 3  Heading 4  Heading 5 Emphasis Link Paragraph Ordered List Unordered List Code and Syntax Highlighting Blockquote Inline HTML Tables Image Youtube video          Here is example of hedings.</p>
-            <a href="https://www.codemodernizer.com/blog/post-1/" title="Read More - Adversus is a web-based dialer and practical CRM solution" class="btn btn-sm btn-primary">Read More</a>
-          </div>
-        </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="content"><p>On this page I&rsquo;m presenting a selection of transformation examples, ranging from the rather trivial to the more complicated.
+The goal is each time to end up with code that makes use of modern constructs, and is easier to understand.</p>
+<h4 id="old-loop-constructs">Old loop constructs</h4>
+<p>It is obvious that we want very old constructs out of the way:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">Enumeration</span><span style="color:#f92672">&lt;</span><span style="color:#111">E</span><span style="color:#f92672">&gt;</span> <span style="color:#111">enumeration</span> <span style="color:#f92672">=</span> <span style="color:#111">vector</span><span style="color:#f92672">.</span><span style="color:#75af00">elements</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">while</span> <span style="color:#f92672">(</span><span style="color:#111">enumeration</span><span style="color:#f92672">.</span><span style="color:#75af00">hasMoreElements</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">E</span> <span style="color:#111">e</span> <span style="color:#f92672">=</span> <span style="color:#111">enumeration</span><span style="color:#f92672">.</span><span style="color:#75af00">nextElement</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">accept</span><span style="color:#f92672">(</span><span style="color:#111">e</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>is much more verbose than</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">vector</span><span style="color:#f92672">.</span><span style="color:#75af00">forEach</span><span style="color:#f92672">(</span><span style="color:#111">accept</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>Some coders may even have written</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">for</span> <span style="color:#f92672">(</span><span style="color:#111">Enumeration</span><span style="color:#f92672">&lt;</span><span style="color:#111">E</span><span style="color:#f92672">&gt;</span> <span style="color:#111">e</span> <span style="color:#f92672">=</span> <span style="color:#111">v</span><span style="color:#f92672">.</span><span style="color:#75af00">elements</span><span style="color:#f92672">();</span> <span style="color:#111">e</span><span style="color:#f92672">.</span><span style="color:#75af00">hasMoreElements</span><span style="color:#f92672">();)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">accept</span><span style="color:#f92672">(</span><span style="color:#111">e</span><span style="color:#f92672">.</span><span style="color:#75af00">nextElement</span><span style="color:#f92672">());</span>
+</span></span></code></pre></div><p>which does take me a second to parse.</p>
+<p>I am more accustomed to iterators and lists, rather than enumerations and vectors,</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">Iterator</span><span style="color:#f92672">&lt;</span><span style="color:#111">E</span><span style="color:#f92672">&gt;</span> <span style="color:#111">it</span> <span style="color:#f92672">=</span> <span style="color:#111">list</span><span style="color:#f92672">.</span><span style="color:#75af00">iterator</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">while</span> <span style="color:#f92672">(</span><span style="color:#111">it</span><span style="color:#f92672">.</span><span style="color:#75af00">hasNext</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">E</span> <span style="color:#111">e</span> <span style="color:#f92672">=</span> <span style="color:#111">it</span><span style="color:#f92672">.</span><span style="color:#75af00">next</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">accept</span><span style="color:#f92672">(</span><span style="color:#111">e</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>but obviously</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">list</span><span style="color:#f92672">.</span><span style="color:#75af00">forEach</span><span style="color:#f92672">(</span><span style="color:#111">accept</span><span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>remains the easiest to understand.</p>
+<p>These examples were focused on conciseness of code: 
+the most compact one is also the one requiring the least mental efforts to understand.
+But sometimes the loop may hide a real problem:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">for</span> <span style="color:#f92672">(</span><span style="color:#00a8c8">int</span> <span style="color:#111">i</span><span style="color:#f92672">=</span><span style="color:#111">0</span><span style="color:#f92672">;</span> <span style="color:#111">i</span><span style="color:#f92672">&lt;=</span><span style="color:#111">vector</span><span style="color:#f92672">.</span><span style="color:#75af00">size</span><span style="color:#f92672">();</span> <span style="color:#111">i</span><span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">accept</span><span style="color:#f92672">(</span><span style="color:#111">vector</span><span style="color:#f92672">.</span><span style="color:#75af00">get</span><span style="color:#f92672">(</span><span style="color:#111">i</span><span style="color:#f92672">));</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>Oops, that <code>=</code> should not have been there. While</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">for</span> <span style="color:#f92672">(</span><span style="color:#00a8c8">int</span> <span style="color:#111">i</span><span style="color:#f92672">=</span><span style="color:#111">0</span><span style="color:#f92672">;</span> <span style="color:#111">i</span><span style="color:#f92672">&lt;</span><span style="color:#111">vector</span><span style="color:#f92672">.</span><span style="color:#75af00">size</span><span style="color:#f92672">();</span> <span style="color:#111">i</span><span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">accept</span><span style="color:#f92672">(</span><span style="color:#111">vector</span><span style="color:#f92672">.</span><span style="color:#75af00">get</span><span style="color:#f92672">(</span><span style="color:#111">i</span><span style="color:#f92672">));</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>is not such a performance hit, the same construct using a generic <code>List</code> instance may be <em>slow</em> when the underlying implementation is a <code>LinkedList</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">for</span> <span style="color:#f92672">(</span><span style="color:#00a8c8">int</span> <span style="color:#111">i</span><span style="color:#f92672">=</span><span style="color:#111">0</span><span style="color:#f92672">;</span> <span style="color:#111">i</span><span style="color:#f92672">&lt;</span><span style="color:#111">list</span><span style="color:#f92672">.</span><span style="color:#75af00">size</span><span style="color:#f92672">();</span> <span style="color:#111">i</span><span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">accept</span><span style="color:#f92672">(</span><span style="color:#111">list</span><span style="color:#f92672">.</span><span style="color:#75af00">get</span><span style="color:#f92672">(</span><span style="color:#111">i</span><span style="color:#f92672">));</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><h4 id="conditional-return">Conditional return</h4>
+<p>Sometimes, it is simply a matter of aesthetics:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#111">3</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">return</span> <span style="color:#f92672">-</span><span style="color:#111">1</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">return</span> <span style="color:#111">1</span><span style="color:#f92672">;</span>
+</span></span></code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#111">3</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">return</span> <span style="color:#f92672">-</span><span style="color:#111">1</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span> <span style="color:#00a8c8">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">return</span> <span style="color:#111">1</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">return</span> <span style="color:#111">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#111">3</span> <span style="color:#f92672">?</span> <span style="color:#f92672">-</span><span style="color:#111">1</span> <span style="color:#f92672">:</span> <span style="color:#111">1</span>
+</span></span></code></pre></div><p>But what if a method call is involved?
+Is</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">boolean</span> <span style="color:#111">b</span> <span style="color:#f92672">=</span> <span style="color:#111">someMethod</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">c</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">return</span> <span style="color:#00a8c8">true</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">return</span> <span style="color:#111">b</span><span style="color:#f92672">;</span>
+</span></span></code></pre></div><p>equivalent to</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">c</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">return</span> <span style="color:#00a8c8">true</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">return</span> <span style="color:#111">someMethod</span><span style="color:#f92672">();</span>
+</span></span></code></pre></div><p>or even</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">return</span> <span style="color:#111">c</span> <span style="color:#f92672">||</span> <span style="color:#111">someMethod</span><span style="color:#f92672">()</span>
+</span></span></code></pre></div><p>This is where <a href="https://e2immu.org">e2immu</a> comes into play: it all depends on whether the method is <em>modifying</em> or not.
+If <code>someMethod</code> modifies the state of <code>this</code>, then it must be called before returning, and</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">return</span> <span style="color:#111">someMethod</span><span style="color:#f92672">()</span> <span style="color:#f92672">||</span> <span style="color:#111">c</span><span style="color:#f92672">;</span>
+</span></span></code></pre></div><p>will be correct. 
+If it is not modifying, but, on the contrary, a time-consuming operation, it&rsquo;d be silly not to swap the <code>||</code> clauses, to conditionally avoid a lengthy call.</p>
+<h3 id="multiple-assignment">Multiple assignment</h3>
+<p>In this rather trivial example, I&rsquo;d prefer to see a <code>final</code> modifier to <code>count</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">Count</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">private</span> <span style="color:#00a8c8">int</span> <span style="color:#111">count</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#75af00">Count</span><span style="color:#f92672">(</span><span style="color:#00a8c8">int</span> <span style="color:#111">input</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">this</span><span style="color:#f92672">.</span><span style="color:#75af00">count</span> <span style="color:#f92672">=</span> <span style="color:#111">input</span><span style="color:#f92672">;</span>       
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#00a8c8">int</span> <span style="color:#75af00">getCount</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">return</span> <span style="color:#111">count</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>It&rsquo;d be easier to use</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#111">record</span> <span style="color:#75af00">Count</span><span style="color:#f92672">(</span><span style="color:#00a8c8">int</span> <span style="color:#111">count</span><span style="color:#f92672">)</span> <span style="color:#f92672">{}</span>
+</span></span></code></pre></div><p>but then you&rsquo;ll have to swap out <code>getCount()</code> for <code>count()</code> everywhere in your code.
+A small modification brings me back from modernization to regularization:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">Count</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">private</span> <span style="color:#00a8c8">int</span> <span style="color:#111">count</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#75af00">Count</span><span style="color:#f92672">(</span><span style="color:#00a8c8">int</span> <span style="color:#111">input</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">input</span> <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#111">1</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#00a8c8">this</span><span style="color:#f92672">.</span><span style="color:#75af00">count</span> <span style="color:#f92672">=</span> <span style="color:#111">someComputation</span><span style="color:#f92672">(</span><span style="color:#111">input</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#00a8c8">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#00a8c8">this</span><span style="color:#f92672">.</span><span style="color:#75af00">count</span> <span style="color:#f92672">=</span> <span style="color:#111">input</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">this</span><span style="color:#f92672">.</span><span style="color:#75af00">count</span> <span style="color:#f92672">=</span> <span style="color:#00a8c8">this</span><span style="color:#f92672">.</span><span style="color:#75af00">count</span> <span style="color:#f92672">+</span> <span style="color:#111">1</span><span style="color:#f92672">;</span> <span style="color:#75715e">// let&#39;s start counting from 1
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#00a8c8">int</span> <span style="color:#75af00">getCount</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">return</span> <span style="color:#111">count</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>This constructor doesn&rsquo;t allow the <code>final</code> modifier, because <code>count</code> is assigned to more than once.
+After a regularization step not unlike the one discussed in a previous section, we&rsquo;re back to a single assignment:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">Count</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">private</span> <span style="color:#00a8c8">final</span> <span style="color:#00a8c8">int</span> <span style="color:#111">count</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#75af00">Count</span><span style="color:#f92672">(</span><span style="color:#00a8c8">int</span> <span style="color:#111">input</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">this</span><span style="color:#f92672">.</span><span style="color:#75af00">count</span> <span style="color:#f92672">=</span> <span style="color:#f92672">(</span><span style="color:#111">input</span> <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#111">1</span> <span style="color:#f92672">?</span> <span style="color:#111">someComputation</span><span style="color:#f92672">(</span><span style="color:#111">input</span><span style="color:#f92672">)</span> <span style="color:#f92672">:</span> <span style="color:#111">input</span><span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#111">1</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#00a8c8">int</span> <span style="color:#75af00">getCount</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">return</span> <span style="color:#111">count</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>I cannot stress enough the importance of being able to see that <code>count</code> will not change during the lifetime of the object.</p>
+<p>You may want to see an extra local variable in the constructor:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">count0</span> <span style="color:#f92672">=</span> <span style="color:#111">input</span> <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#111">1</span> <span style="color:#f92672">?</span> <span style="color:#111">someComputation</span><span style="color:#f92672">(</span><span style="color:#111">input</span><span style="color:#f92672">)</span> <span style="color:#f92672">:</span> <span style="color:#111">input</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">this</span><span style="color:#f92672">.</span><span style="color:#75af00">count</span> <span style="color:#f92672">=</span> <span style="color:#111">count0</span> <span style="color:#f92672">+</span> <span style="color:#111">1</span><span style="color:#f92672">;</span> <span style="color:#75715e">// let&#39;s start counting from 1
+</span></span></span></code></pre></div><p>Sticking closest to the original code would be</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">count0</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">input</span> <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#111">1</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">count0</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#111">1</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span> <span style="color:#00a8c8">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">count0</span> <span style="color:#f92672">=</span> <span style="color:#111">someComputation</span><span style="color:#f92672">(</span><span style="color:#111">input</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">this</span><span style="color:#f92672">.</span><span style="color:#75af00">input</span> <span style="color:#f92672">=</span> <span style="color:#111">count0</span> <span style="color:#f92672">+</span> <span style="color:#111">1</span><span style="color:#f92672">;</span> <span style="color:#75715e">// let&#39;s start counting from 1
+</span></span></span></code></pre></div><p>While single assignments to fields are a must, I am also strongly in favor of single assignments to local variables.
+Rather than</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">V</span> <span style="color:#111">v</span> <span style="color:#f92672">=</span> <span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">get</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">v</span> <span style="color:#f92672">==</span> <span style="color:#00a8c8">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">v</span> <span style="color:#f92672">=</span> <span style="color:#111">defaultElement</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>IntelliJ will now underline the variable <code>v</code>, to indicate that it has been reassigned. I prefer to see</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">V</span> <span style="color:#111">inMap</span> <span style="color:#f92672">=</span> <span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">get</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">V</span> <span style="color:#111">v</span> <span style="color:#f92672">=</span> <span style="color:#111">inMap</span> <span style="color:#f92672">!=</span> <span style="color:#00a8c8">null</span> <span style="color:#f92672">?</span> <span style="color:#111">inMap</span> <span style="color:#f92672">:</span> <span style="color:#111">defaultElement</span><span style="color:#f92672">;</span>
+</span></span></code></pre></div><p>This is not only about aesthetics: it is now obvious that a method can be introduced.
+In this particular case, of course, a method <em>has</em> been introduced in the JDK (since 1.8):</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">V</span> <span style="color:#111">v</span> <span style="color:#f92672">=</span> <span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">getOrDefault</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">,</span> <span style="color:#111">defaultElement</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>Consider a slightly more complicated case:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">result</span> <span style="color:#f92672">=</span> <span style="color:#111">0</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">condition</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">int</span> <span style="color:#111">k</span> <span style="color:#f92672">=</span> <span style="color:#111">doSomeComplexThings</span><span style="color:#f92672">(</span><span style="color:#111">input</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">k</span> <span style="color:#f92672">&gt;</span> <span style="color:#111">0</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">result</span> <span style="color:#f92672">=</span> <span style="color:#111">k</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#00a8c8">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">int</span> <span style="color:#111">j</span> <span style="color:#f92672">=</span> <span style="color:#111">aFunctionOf</span><span style="color:#f92672">(</span><span style="color:#111">k</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">j</span> <span style="color:#f92672">&gt;</span> <span style="color:#111">0</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#111">result</span> <span style="color:#f92672">=</span> <span style="color:#111">j</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>Via the intermediate step</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">result</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">condition</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">int</span> <span style="color:#111">k</span> <span style="color:#f92672">=</span> <span style="color:#111">doSomeComplexThings</span><span style="color:#f92672">(</span><span style="color:#111">input</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">k</span> <span style="color:#f92672">&gt;</span> <span style="color:#111">0</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">result</span> <span style="color:#f92672">=</span> <span style="color:#111">k</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#00a8c8">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">int</span> <span style="color:#111">j</span> <span style="color:#f92672">=</span> <span style="color:#111">aFunctionOf</span><span style="color:#f92672">(</span><span style="color:#111">k</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">j</span> <span style="color:#f92672">&gt;</span> <span style="color:#111">0</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#111">result</span> <span style="color:#f92672">=</span> <span style="color:#111">j</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#00a8c8">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#111">result</span> <span style="color:#f92672">=</span> <span style="color:#111">0</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span> <span style="color:#00a8c8">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">result</span> <span style="color:#f92672">=</span> <span style="color:#111">0</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>we can see that we&rsquo;re better off with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#75af00">method</span><span style="color:#f92672">(</span><span style="color:#00a8c8">boolean</span> <span style="color:#111">condition</span><span style="color:#f92672">,</span> <span style="color:#00a8c8">int</span> <span style="color:#111">input</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">condition</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">int</span> <span style="color:#111">k</span> <span style="color:#f92672">=</span> <span style="color:#111">doSomeComplexThings</span><span style="color:#f92672">(</span><span style="color:#111">input</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">k</span> <span style="color:#f92672">&gt;</span> <span style="color:#111">0</span><span style="color:#f92672">)</span> <span style="color:#00a8c8">return</span> <span style="color:#111">k</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">int</span> <span style="color:#111">j</span> <span style="color:#f92672">=</span> <span style="color:#111">aFunctionOf</span><span style="color:#f92672">(</span><span style="color:#111">k</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">if</span> <span style="color:#f92672">(</span><span style="color:#111">j</span> <span style="color:#f92672">&gt;</span> <span style="color:#111">0</span><span style="color:#f92672">)</span> <span style="color:#00a8c8">return</span> <span style="color:#111">j</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">return</span> <span style="color:#111">0</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">result</span> <span style="color:#f92672">=</span> <span style="color:#111">method</span><span style="color:#f92672">(</span><span style="color:#111">condition</span><span style="color:#f92672">,</span> <span style="color:#111">input</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>It is now much more obvious which variables determine the value of <code>result</code>.
+At the same time, <a href="https://e2immu.org">e2immu</a> can compute whether <code>doSomeComplexThings()</code>, <code>aFunctionOf()</code>, and now also <code>method()</code> are modifying methods, or not.
+If not, we have gained more freedom for further transformations.</p>
+<h3 id="collection-operations">Collection operations</h3>
+<p>A lot of older code will be littered with constructs like</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">Integer</span> <span style="color:#111">count</span> <span style="color:#f92672">=</span> <span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">get</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">if</span><span style="color:#f92672">(</span><span style="color:#111">count</span> <span style="color:#f92672">==</span> <span style="color:#00a8c8">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">put</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">,</span> <span style="color:#111">1</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span> <span style="color:#00a8c8">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">put</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">,</span> <span style="color:#111">count</span> <span style="color:#f92672">+</span> <span style="color:#111">1</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">List</span><span style="color:#f92672">&lt;</span><span style="color:#111">T</span><span style="color:#f92672">&gt;</span> <span style="color:#111">ts</span> <span style="color:#f92672">=</span> <span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">get</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">if</span><span style="color:#f92672">(</span><span style="color:#111">ts</span> <span style="color:#f92672">==</span> <span style="color:#00a8c8">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">ts</span> <span style="color:#f92672">=</span> <span style="color:#00a8c8">new</span> <span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">ts</span><span style="color:#f92672">.</span><span style="color:#75af00">add</span><span style="color:#f92672">(</span><span style="color:#111">t</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>The JDK designers have noticed this some time ago! 
+The first construct can be replaced by</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">merge</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">,</span> <span style="color:#111">1</span><span style="color:#f92672">,</span> <span style="color:#f92672">(</span><span style="color:#111">oldValue</span><span style="color:#f92672">,</span> <span style="color:#111">v</span><span style="color:#f92672">)</span> <span style="color:#f92672">-&gt;</span> <span style="color:#111">oldValue</span> <span style="color:#f92672">+</span> <span style="color:#111">1</span><span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>or better,</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">merge</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">,</span> <span style="color:#111">1</span><span style="color:#f92672">,</span> <span style="color:#111">Integer</span><span style="color:#f92672">::</span><span style="color:#111">sum</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>For the second one, there is also a method, which at the same time removes the multiple assignment to <code>ts</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">List</span><span style="color:#f92672">&lt;</span><span style="color:#111">T</span><span style="color:#f92672">&gt;</span> <span style="color:#111">ts</span> <span style="color:#f92672">=</span> <span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">putIfAbsent</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">,</span> <span style="color:#00a8c8">new</span> <span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;&gt;());</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">ts</span><span style="color:#f92672">.</span><span style="color:#75af00">add</span><span style="color:#f92672">(</span><span style="color:#111">t</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>or better, avoiding useless object creation,</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">List</span><span style="color:#f92672">&lt;</span><span style="color:#111">T</span><span style="color:#f92672">&gt;</span> <span style="color:#111">ts</span> <span style="color:#f92672">=</span> <span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">computeIfAbsent</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">,</span> <span style="color:#f92672">(</span><span style="color:#111">k</span><span style="color:#f92672">,</span> <span style="color:#111">v</span><span style="color:#f92672">)</span> <span style="color:#f92672">-&gt;</span> <span style="color:#00a8c8">new</span> <span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;&gt;());</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">ts</span><span style="color:#f92672">.</span><span style="color:#75af00">add</span><span style="color:#f92672">(</span><span style="color:#111">t</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>The question here is: do your developers recognize these methods?
+The answer probably is: yes, <em>if</em> you use them frequently. 
+It may be even more comfortable for them to introduce a new method, if this two-line construct is a frequent occurrence:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">static</span> <span style="color:#f92672">&lt;</span><span style="color:#111">K</span><span style="color:#f92672">,</span> <span style="color:#111">T</span><span style="color:#f92672">&gt;</span> <span style="color:#00a8c8">void</span> <span style="color:#75af00">safeAddToListInMap</span><span style="color:#f92672">(</span><span style="color:#111">Map</span><span style="color:#f92672">&lt;</span><span style="color:#111">K</span><span style="color:#f92672">,</span> <span style="color:#111">List</span><span style="color:#f92672">&lt;</span><span style="color:#111">T</span><span style="color:#f92672">&gt;&gt;</span> <span style="color:#111">map</span><span style="color:#f92672">,</span> <span style="color:#111">K</span> <span style="color:#111">key</span><span style="color:#f92672">,</span> <span style="color:#111">T</span> <span style="color:#111">t</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">List</span><span style="color:#f92672">&lt;</span><span style="color:#111">T</span><span style="color:#f92672">&gt;</span> <span style="color:#111">ts</span> <span style="color:#f92672">=</span> <span style="color:#111">map</span><span style="color:#f92672">.</span><span style="color:#75af00">computeIfAbsent</span><span style="color:#f92672">(</span><span style="color:#111">key</span><span style="color:#f92672">,</span> <span style="color:#f92672">(</span><span style="color:#111">k</span><span style="color:#f92672">,</span> <span style="color:#111">v</span><span style="color:#f92672">)</span> <span style="color:#f92672">-&gt;</span> <span style="color:#00a8c8">new</span> <span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;&gt;());</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">ts</span><span style="color:#f92672">.</span><span style="color:#75af00">add</span><span style="color:#f92672">(</span><span style="color:#111">t</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">safeAddToListInMap</span><span style="color:#f92672">(</span><span style="color:#111">map</span><span style="color:#f92672">,</span> <span style="color:#111">key</span><span style="color:#f92672">,</span> <span style="color:#111">t</span><span style="color:#f92672">);</span>
+</span></span></code></pre></div><p>The reason it is so important to regularize collection operations is that they detract attention from the actual intention of the code: they&rsquo;re technicalities, at a lower level, that you do not want to deal with when you&rsquo;re trying to understand the semantics of the code.</p>
+</div>
       </div>
-      
-      
-      
-      <div class="col-lg-4 col-sm-6 pb-3">
-        <div class="card bg-transparent border-0">
-          
-          
-          
-          
-          <img loading="lazy" decoding="async" class="card-img rounded-2 mb-4" width="460" height="230" src="/images/blog/post-5_hubae2b37bb1ca9b8460738513dc27fd55_356887_169d4ef97110d53c2a67ccb86c50f849.webp" alt="post image" onerror="this.onerror=null;this.src='\/images\/blog\/post-5_hubae2b37bb1ca9b8460738513dc27fd55_356887_460x0_resize_q100_box.jpg'">
-          
-
-          <div class="card-body p-0">
-            <div class="d-flex align-items-center mb-4">
-              
-              <div class="user-image me-1">
-                
-                
-                
-                
-                <a href="/author/awab-husameldin/" title="Awab Husameldin">
-                  <img loading="lazy" decoding="async" class="rounded-circle" src="/images/avatar/03_hu1423e534f93ce9cccce36bc479b07f45_18369_51bc94d811eb94741b67de0641e7040d.webp" alt="author image" onerror="this.onerror=null;this.src='\/images\/avatar\/03_hu1423e534f93ce9cccce36bc479b07f45_18369_30x30_fill_q100_box_smart1.jpg'">
-                </a>
-                
-              </div>
-              <div class="user-info me-3">
-                <p class="fw-500 mb-0"><span class="mx-1">by</span><a class="text-dark" href="/author/awab-husameldin/">Awab Husameldin</a></p>
-              </div>
-              
-              <div class="fw-500"><i class="far fa-calendar-alt text-dark me-1"></i> April 18, 2020</div>
-            </div>
-
-            <h3 class="h5"><a href="https://www.codemodernizer.com/blog/post-5/" title="Adversus is a web-based dialer and practical CRM solution" class="text-dark d-inline-block">Adversus is a web-based dialer and practical CRM solution</a></h3>
-            <p class="mb-4">Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</p>
-            <a href="https://www.codemodernizer.com/blog/post-5/" title="Read More - Adversus is a web-based dialer and practical CRM solution" class="btn btn-sm btn-primary btn-sm">Read More</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-lg-4 col-sm-6 pb-3">
-        <div class="card bg-transparent border-0">
-          
-          
-          
-          
-          <img loading="lazy" decoding="async" class="card-img rounded-2 mb-4" width="460" height="230" src="/images/blog/post-6_hu7dc2160f80c5a17d247e5c2ff7e3a1eb_253522_317e02ccb711f61c3547848efc00a61c.webp" alt="post image" onerror="this.onerror=null;this.src='\/images\/blog\/post-6_hu7dc2160f80c5a17d247e5c2ff7e3a1eb_253522_460x0_resize_q100_box.jpg'">
-          
-
-          <div class="card-body p-0">
-            <div class="d-flex align-items-center mb-4">
-              
-              <div class="user-image me-1">
-                
-                
-                
-                
-                <a href="/author/joseph-gonzalez/" title="Joseph Gonzalez">
-                  <img loading="lazy" decoding="async" class="rounded-circle" src="/images/avatar/04_huf7c885c011a0539925ac6646a2835265_26168_141b290b9b04657c30abc0ecda5d9826.webp" alt="author image" onerror="this.onerror=null;this.src='\/images\/avatar\/04_huf7c885c011a0539925ac6646a2835265_26168_30x30_fill_q100_box_smart1.jpg'">
-                </a>
-                
-              </div>
-              <div class="user-info me-3">
-                <p class="fw-500 mb-0"><span class="mx-1">by</span><a class="text-dark" href="/author/joseph-gonzalez/">Joseph Gonzalez</a></p>
-              </div>
-              
-              <div class="fw-500"><i class="far fa-calendar-alt text-dark me-1"></i> March 18, 2020</div>
-            </div>
-
-            <h3 class="h5"><a href="https://www.codemodernizer.com/blog/post-6/" title="Adversus is a web-based dialer and practical CRM solution" class="text-dark d-inline-block">Adversus is a web-based dialer and practical CRM solution</a></h3>
-            <p class="mb-4">Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in.</p>
-            <a href="https://www.codemodernizer.com/blog/post-6/" title="Read More - Adversus is a web-based dialer and practical CRM solution" class="btn btn-sm btn-primary btn-sm">Read More</a>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      <div class="col-12 pt-5">
-        <!-- pagination -->
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <nav>
-          <ul class="pagination justify-content-center flex-wrap mb-0">
-            
-            
-            <li class="page-item"><a class="page-link arrow" href="/blog/" aria-label="Pagination Arrow">
-              <i class="fas fa-angle-left"></i>
-            </a></li>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <li class="page-item">
-              <a href="/blog/" class="page-link">
-                1
-              </a>
-            </li>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <li class="page-item">
-              <a href="/blog/page/2/" class="page-link active ">
-                2
-              </a>
-            </li>
-            
-            
-            
-            
-          </ul>
-        </nav>
-        
-      </div>
-      
-
     </div>
   </div>
 </section>
-
 
 
 

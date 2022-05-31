@@ -270,6 +270,15 @@ enable: true title: &amp;ldquo;Check out our video preview&amp;rdquo; content: &
     </item>
     
     <item>
+      <title>Examples</title>
+      <link>https://www.codemodernizer.com/resources/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.codemodernizer.com/resources/examples/</guid>
+      <description>On this page I&amp;rsquo;m presenting a selection of transformation examples, ranging from the rather trivial to the more complicated.</description>
+    </item>
+    
+    <item>
       <title>Feedback</title>
       <link>https://www.codemodernizer.com/resources/feedback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -338,7 +347,7 @@ enable: true title: &amp;ldquo;Check out our video preview&amp;rdquo; content: &
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.codemodernizer.com/resources/manual/</guid>
-      <description>On this page I&amp;rsquo;m presenting a selection of transformation examples, ranging from the rather trivial to the more complicated.</description>
+      <description>There is no manual yet. Please take a look at the examples.</description>
     </item>
     
     <item>
